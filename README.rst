@@ -46,7 +46,7 @@ We'd be happy to see many forks and pull-requests to make this addon even better
 
 Maintainers are `Jens Klein <mailto:jk@kleinundpartner.at>`_ and the BlueDynamics Alliance developer team.
 We appreciate any contribution and if a release is needed to be done on pypi, please just contact one of us.
-We also offer commercial support if any training, coaching, integration or adaptions are needed.
+We also offer commercial support, training, coaching, integration or adaptions.
 
 
 Contributions

@@ -8,6 +8,7 @@
 .pydevproject
 .Python
 .pyvenv.cfg
+.python-version
 pyvenv.cfg
 pip-selfcheck.json
 .settings/
