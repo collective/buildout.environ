@@ -1,4 +1,5 @@
-global-exclude *.pyc
+global-exclude *.py[co] 
+global-exclude __pycache__
 graft src/buildout
 include *.cfg
 include *.rst
