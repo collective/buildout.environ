@@ -29,5 +29,6 @@ coverage.xml
 htmlcov/
 .pytest_cache/
 _build/
-
+__pycache__
+src/
 /*.html
