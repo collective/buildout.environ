@@ -4,7 +4,8 @@ Changelog
 1.0.3 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add ``environ-output`` feature.
+  [jensens]
 
 
 1.0.2 (2019-01-15)

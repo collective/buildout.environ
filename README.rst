@@ -35,6 +35,19 @@ Example::
     install =
         print("Found in environ: PATH=${__environ__:PATH}")
 
+To show some variables while running buildout, add a line like this::
+
+    [buildout]
+    extensions = buildout.environ
+    environ-output =
+        PATH
+        HOME
+
+This results into an output like this::
+
+    buildout.environ: PATH=/home/fido/bin/:/usr/bin/:....
+    buildout.environ: HOME=/home/fido
+
 
 Source Code
 -----------
