@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.0a1 (unreleased)
----------------
+1.0 (2019-01-15)
+----------------
 
 - Initial release. Make it work.
   [jensens]
