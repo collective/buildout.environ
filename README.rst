@@ -5,7 +5,7 @@
 buildout.environ
 ================
 
-Expose system envionment variables into `zc.buildout <https://pypi.org/project/zc.buildout/>`_ section.
+Expose system environment variables into `zc.buildout <https://pypi.org/project/zc.buildout/>`_ section.
 
 It is an extension for buildout.
 All variables seen by Pythons ``os.environ`` are available in buildout.
