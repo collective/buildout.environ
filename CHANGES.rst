@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1.1 (unreleased)
+1.1.1 (2019-01-18)
 ------------------
 
 - Fix problem with dollar (``$``) in environment values.
