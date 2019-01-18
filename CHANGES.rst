@@ -4,7 +4,9 @@ Changelog
 1.1.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix problem with dollar (``$``) in environment values.
+  Use os.path.expandvars first, then replace with ``__DOLLAR___``.
+  [jensens]
 
 
 1.1.0 (2019-01-15)
