@@ -1,10 +1,11 @@
 Changelog
 =========
 
-1.1.2 (unreleased)
+1.2.0 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add ``environ-required`` feature.
+  [jensens]
 
 
 1.1.1 (2019-01-18)

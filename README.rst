@@ -48,6 +48,19 @@ This results into an output like this::
     buildout.environ: PATH=/home/fido/bin/:/usr/bin/:....
     buildout.environ: HOME=/home/fido
 
+To ensure that some required variables were set,
+an list of required keys is supported::
+
+    [buildout]
+    extensions = buildout.environ
+    environ-required =
+        PATH
+        SOMEOTHER
+
+Without setting `SOMEOTHER` this results into an output like this::
+
+    buildout.environ: Missing required environment variables: SOMEOTHER
+
 
 Source Code
 -----------
@@ -56,6 +69,8 @@ The sources are in a GIT DVCS with its main branches at `github <http://github.c
 There you can report issue too.
 
 We'd be happy to see many forks and pull-requests to make this addon even better.
+
+We use `black <https://black.readthedocs.io/en/stable/>`_ (default settings) and `isort <https://readthedocs.org/projects/isort/>`_ (see `setup.cfg`) for code formatting.
 
 Maintainers are `Jens Klein <mailto:jk@kleinundpartner.at>`_ and the BlueDynamics Alliance developer team.
 We appreciate any contribution and if a release is needed to be done on pypi, please just contact one of us.
